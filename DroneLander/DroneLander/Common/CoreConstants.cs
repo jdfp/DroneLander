@@ -18,9 +18,21 @@ namespace DroneLander.Common
         public const double StartingThrust = 0.0;
     }
 
+    public static class MobileServiceConstants
+    {
+        public const string AppUrl = "https://dronelandermobile1.azurewebsites.net";
+    }
+
     public static class MobileCenterConstants
     {
         public const string AndroidAppId = "4a18e002-69ae-47a5-ae11-edff78c32b7f";
         public const string iOSAppId = "";
     }
+
+    public static class TelemetryConstants
+    {
+        public const string DisplayName = "Neil Armstrong";
+        public const string Tagline = "gg ez";
+    }
+
 }
